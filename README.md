@@ -7,6 +7,9 @@
 <br>
 <p><strong>How might Seattle Children’s and other local nonprofits easily maintain an up-to-date website
 of local resources so that Seattle residents have a one-stop shop for local social health resources?</strong></p>
-
-
-
+<br>
+<p>Contact Information</p>
+<p>Yu-Won Youn: yyoun12@uw.edu</p>
+<p>Josephine Liu: jliu99@uw.edu</p>
+<p>Jonathan Lin: jonl1138@uw.edu</p>
+<p>Andy Luu: aluu5675@uw.edu</p>
