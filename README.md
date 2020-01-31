@@ -1,5 +1,5 @@
 # Capstone Project
 
-Sponsored Project: Seattle Children's
+<p>Sponsored Project: Seattle Children's</p>
 Project Name: Social Health Connector
 
