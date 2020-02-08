@@ -1,0 +1,56 @@
+body {
+    background-color: #E5E5E5;
+}
+
+/* Connecting people with local resources for their everyday */
+p {
+    font-family: 'Heebo';
+}
+
+p.slogan {
+
+    position: absolute;
+    width: 450px;
+    height: 21px;
+    left: 48px;
+    top: 100.5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    margin-block-start: 0.5em;
+
+    color: #FFFFFF;
+}
+
+p.title-text {
+    position: absolute;
+    width: 300px;
+    height: 71px;
+    left: 44px;
+    top: 4px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+/* identical to box height */
+
+    margin-block-start: 0.75em;
+
+    color: #0C2452;
+}
+
+/* Rectangle for Nav Bar*/
+
+.top-bar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 76.00%;
+    background: #6CB7A1;
+}
