@@ -4,7 +4,21 @@
 
 h1{
     font-weight: 900;
-    font-size: 36;
+    font-size: 36px;
+    padding: 10px;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 50vh;
 }
 
 em{
@@ -12,13 +26,31 @@ em{
     font-style: normal;
 }
 
-img{
-    height: 15vh;
-    width: 15vh;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 20px;
+    overflow: hidden;
+    float: right;
 }
 
 .header{
     background: #2f80ed;
+}
+
+.title{
+    color: #abccf7;
+    font-size: 50px;
+}
+
+.nav{
+    position: absolute;
+    right: 0;
+    margin-top: 2vh;
+}
+
+.btn{
+    margin: 5px;
 }
 
 .btn-signup{
@@ -35,7 +67,11 @@ img{
     background: #f1faff;
 }
 
-.container{
+.searchbar img{
+    width: 100vh;
+}
+
+.container-fluid{
     display: flex;
     padding: 0;
     margin: 0;
@@ -45,12 +81,29 @@ img{
     background: #abccf7;
     width: 50%;
     height: 100vh;
-    /* display: inline-block; */
+    position: relative;
+}
+
+.missionStatement{
+    margin-left: 5vh;
+    margin-top: 35vh;
 }
 
 .categories{
     background: #ffffff;
     width: 50%;
     height: 100vh;
-    /* display: inline-block; */
+    text-align: center;
+}
+
+.categories img{
+    height: 21vh;
+    width: 21vh;
+    margin: 5px;
+}
+
+.categoriesContent{
+    margin-top: 35vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
