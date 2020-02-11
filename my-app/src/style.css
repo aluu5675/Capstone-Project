@@ -1,10 +1,16 @@
 body {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
+}
+
+.mission-statement{
+    background-color: #ABCCF7;
+    width: 50%;
+    height: 100vh;
 }
 
 /* Connecting people with local resources for their everyday */
 p {
-    font-family: 'Heebo';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 p.slogan {
@@ -52,5 +58,31 @@ p.title-text {
     right: 0%;
     top: 0%;
     bottom: 76.00%;
-    background: #6CB7A1;
+    background: #2F80ED;
+}
+
+.search-bar{
+    background: #F1FAFF;
+}
+
+.mission-statement{
+    background-color: #ABCCF7;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.begin-search{
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.categories{
+    position: fixed;
+}
+
+.categoryButton{
+    width: 200px;
+    height: 200px;
 }
