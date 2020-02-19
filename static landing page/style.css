@@ -5,12 +5,14 @@
 h1{
     font-weight: 900;
     font-size: 36px;
-    padding: 10px;
+    padding: 5px;
+    padding-left: 15px;
 }
 
 h2{
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 15px;
 }
 
 h3{
@@ -19,6 +21,11 @@ h3{
     position: absolute;
     bottom: 0;
     left: 50vh;
+}
+
+p{
+    padding: 10px;
+    padding-left: 15px;
 }
 
 em{
@@ -40,7 +47,7 @@ ul {
 
 .title{
     color: #abccf7;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .nav{
@@ -49,61 +56,59 @@ ul {
     margin-top: 2vh;
 }
 
-.btn{
-    margin: 5px;
-}
-
-.btn-signup{
-    background-color: #0e2647;
-    color: #ffffff;
-}
-
-.btn-login{
-    background-color: #ed2f80;
-    color: #ffffff;
-}
-
-.searchbar{
-    background: #f1faff;
-}
-
-.searchbar img{
-    width: 100vh;
-}
-
 .container-fluid{
     display: flex;
     padding: 0;
     margin: 0;
 }
 
-.mission{
+.blue{
     background: #abccf7;
-    width: 50%;
-    height: 100vh;
+    width: 100%;
     position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.missionStatement{
-    margin-left: 5vh;
-    margin-top: 35vh;
-}
-
-.categories{
+.white{
     background: #ffffff;
-    width: 50%;
-    height: 100vh;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* .mission{
     text-align: center;
+} */
+
+.section-title{
+    width: 50%;
+    display: flex;
 }
 
-.categories img{
-    height: 21vh;
-    width: 21vh;
-    margin: 5px;
+.section-text{
+    width: 50%;
+    display: flex;
 }
 
-.categoriesContent{
-    margin-top: 35vh;
-    margin-left: 5vh;
-    margin-right: 5vh;
+.mission-img{
+    height: 23vh;
+    width: auto;
+    margin-left: 7vh;
+    margin-right: 7vh;
+}
+
+.problem-img{
+    height:50vh;
+    width: 50vh;
+    margin-top: 5px;
+}
+
+.involved{
+    padding-left: 0;
+}
+
+.btn{
+    color: white;
+    background-color: #ed2f80;
 }
