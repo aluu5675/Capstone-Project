@@ -28,3 +28,19 @@ export class ResourceList {
     }
 }
 
+export class ResourcesPage {
+    render() {
+        let 
+        return (
+            <body>
+                <nav>
+
+                </nav>
+                <main>
+                    <h1>Food Resources</h1>
+
+                </main>
+            </body>
+        )
+    }
+}
