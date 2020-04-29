@@ -1,5 +1,28 @@
 body {
     background-color: #E5E5E5;
+    height: 100%
+}
+
+nav {
+    background-color: #4C0B5F;
+}
+
+/* The sidebar menu */
+.sidebarContainer {
+    flex: 1.5
+    
+}
+.sidebar {
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #F2F2F2; 
+}
+
+/* rules for individual checkbox groups in sidebar */
+.checkGroup {
+    text-align: left;
 }
 
 /* Connecting people with local resources for their everyday */
@@ -7,54 +30,25 @@ p {
     font-family: 'Heebo';
 }
 
-p.slogan {
-
-    position: absolute;
-    width: 450px;
-    height: 21px;
-    left: 48px;
-    top: 100.5px;
-
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height */
-
-    margin-block-start: 0.5em;
-
-    color: #FFFFFF;
-}
-
-p.title-text {
-    position: absolute;
-    width: 300px;
-    height: 71px;
-    left: 44px;
-    top: 4px;
-
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 70px;
-/* identical to box height */
-
-    margin-block-start: 0.75em;
-
-    color: #0C2452;
-}
-
-/* Rectangle for Nav Bar*/
-
-.top-bar {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 76.00%;
-    background: #6CB7A1;
-}
-
 .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    background-color: white;
+    min-height: 100%;
+}
+
+
+
+.content {
+    color: #3f4450;
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: white;
+    padding: 10px;
+    -webkit-flex: 5;
+    flex: 5;
+    height: 2000px;
 }
