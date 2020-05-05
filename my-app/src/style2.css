@@ -29,27 +29,11 @@ body {
     width: 50%;
 }
 
-.flex-left {
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-start;
-}
-
 .mission-statement {
     background-color: #ABCCF7;
     width: 50%;
     height: 100vh;
 }
-
-.header .row {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
 h1.no-line {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 2.375rem;
@@ -107,13 +91,6 @@ h1.no-line {
     text-align: center;
 }
 
-.homeLogo {
-    height: 80px;
-    width: 310px;
-    max-width: 100%;
-    overflow: hidden;
-}
-
 .homepage-section {
     padding-top: 60px;
     z-index: 1;
@@ -133,44 +110,6 @@ h1.no-line {
     display: table;
 }
 
-.main-nav-off-canvas {
-    background-color: #FFF;
-    transition: none;
-}
-
-.menu {
-    overflow: hidden;
-}
-
-.menu-primary {
-    background: #FFF;
-    list-style: none;
-    margin: 0;
-    padding: .5rem 0;
-}
-
-.menu-primary a {
-    display: block;
-    font-family: 'Montserrat', Arial, sans-serif;
-    line-height: 1;
-    color: #666;
-    font-size: 1.125rem;
-    font-weight: 500;
-    padding: 0.5rem;
-}
-
-.off-canvas {
-    left: 0;
-    transform: translateX(-100%);
-    height: 100%;
-    max-width: 26rem;
-    overflow: auto;
-    position: fixed;
-    top: 0;
-    width: 90%;
-    z-index: 1000;
-}
-
 /* Connecting people with local resources for their everyday */
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -183,73 +122,43 @@ p.body-large {
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 400;
     margin: 0 0 1.5em;
-    height: 100%;
-    font-family: 'Montserrat', Arial, sans-serif;
 }
 
-nav {
-    background-color: #4C0B5F;
+p.slogan {
+
+    position: absolute;
+    width: 450px;
+    height: 21px;
+    left: 48px;
+    top: 100.5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    margin-block-start: 0.5em;
+
+    color: #FFFFFF;
 }
 
-/* The sidebar menu */
-.sidebarContainer {
-    flex: 1.5
-    
-}
-.sidebar {
-    margin: 20px;
-    text-align: center;
-    align-items: center;
-    padding: 12px;
-    background-color: #F2F2F2; 
-}
+p.title-text {
+    position: absolute;
+    width: 300px;
+    height: 71px;
+    left: 44px;
+    top: 4px;
 
-/* rules for individual checkbox groups in sidebar */
-.checkGroup {
-    text-align: left;
-}
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+/* identical to box height */
 
-/* Connecting people with local resources for their everyday */
-p {
-    font-family: 'Heebo';
-}
+    margin-block-start: 0.75em;
 
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    background-color: white;
-    min-height: 100%;
-}
-
-.site-header {
-    border-bottom: 2px solid #f1f1f1;
-    padding-bottom: .5rem;
-    position: relative;
-    z-index: 99;
-}
-
-.site-header-top {
-    padding: 1rem 1rem .5rem;
-    margin-bottom: .5rem;
-    border-bottom: 2px solid #f1f1f1;
-}
-
-.sticky-nav-container {
-    background-color: #fff;
-    padding: 0;
-}
-
-.sticky-nav-inner {
-    align-items: center;
-    display: flex;
-    flex-wrap: nowrap;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-ul {
-    font-size: .875rem;
-    line-height: 1.5;
+    color: #0C2452;
 }
 
 .unit {
@@ -295,7 +204,6 @@ ul {
     height: 200px;
 }
 
-
 @media (min-width: 25em) {
     .has-overlay {
         float: left;
@@ -310,23 +218,6 @@ ul {
         margin-bottom: 0;
     }
 
-    .site-header {
-        padding-bottom: 0;
-    }
-
-    .site-header-top {
-        align-items: center;
-        box-sizing: border-box;
-        display: flex;
-        margin: 0 auto;
-        max-width: 68.4375rem;
-        padding: 2rem 1rem 1rem;
-    }
-
-    .sticky-nav-inner {
-        min-height: 64px;
-        position: relative;
-    }
 
 }
 
@@ -362,56 +253,6 @@ ul {
     }
 }
 
-@media (min-width: 64em) {
-    .main-nav-off-canvas {
-        background-color: transparent;
-        flex-grow: 1;
-        height: auto;
-        max-width: none;
-        overflow: visible;
-        padding: 0;
-        position: static;
-        transform: none;
-        width: auto;
-        z-index: 1;
-    }
-
-    .menu {
-        overflow: visible;
-    }
-
-    .menu-primary {
-        background: 0 0;
-        display: flex;
-        justify-content: space-between;
-        padding: .25rem 0 .375rem;
-    }
-
-    .menu-primary li:first-child {
-        margin-left: -1rem;
-    }
-
-    .menu-primary li:last-child {
-        margin-right: -1rem;
-    }
-
-    .off-canvas {
-        left: 0;
-    }
-    
-    .site-header-top {
-        border-bottom: none;
-    }
-
-    .sticky-nav-container .flex-left {
-        box-sizing: border-box;
-        margin: 0 auto;
-        max-width: 68.4375rem;
-        padding: 0 1rem;
-        width: 100%;
-    }
-}
-
 @media (min-width: 72em) {
     .inner {
         padding: 0 60px 0 0;
@@ -421,20 +262,4 @@ ul {
     .unit {
         padding: 0 0 0 60px;
     }
-
-
-.content {
-    color: #3f4450;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    background-color: white;
-    padding: 10px;
-    -webkit-flex: 5;
-    flex: 5;
-    height: 100%;
-    margin: 0 80px
-
 }
