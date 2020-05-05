@@ -53,3 +53,18 @@ p {
     height: 100%;
     margin: 0 80px
 }
+
+/* ResourceCategoriesPage styling
+*/
+.categoriesContainer {
+    text-align: center;
+}
+
+.categoryImage {
+    margin: 5px;
+}
+
+.categoryHeading {
+    color: grey;
+}
+
