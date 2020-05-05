@@ -5,9 +5,6 @@ export class ResourceCategoriesPage extends React.Component {
     render() {
         return (
             <body>
-                <nav>
-                    Filler Navigation
-                </nav>
                 <main className="categoriesContainer">     
                     <h1 className="categoryHeading">What Are You Looking For?</h1>
                     <input type="image" src="housing.png" className="categoryImage"/>                        

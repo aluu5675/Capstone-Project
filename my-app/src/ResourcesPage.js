@@ -181,9 +181,6 @@ export class ResourcesPage extends React.Component {
        
         return (
             <body>
-                <nav>
-                    Filler Navigation
-                </nav>
                 <main className="flex-container">
                     <div className="content">                    
                         <h1>Food Resources</h1>
