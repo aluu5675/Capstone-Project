@@ -3,9 +3,10 @@
 }
 
 h1{
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 900;
     font-size: 36px;
-    padding: 5px;
+    padding: 10px;
     padding-left: 15px;
 }
 
@@ -23,13 +24,18 @@ h3{
     left: 50vh;
 }
 
+h4.goal {
+    font-size: 18px;
+    margin-left: 3rem;
+}
+
 p{
     padding: 10px;
     padding-left: 15px;
 }
 
 em{
-    color: #ed2f80;
+    color: #00325b;
     font-style: normal;
 }
 
@@ -42,12 +48,13 @@ ul {
 }
 
 .header{
-    background: #2f80ed;
+    background: #FFFFFF;
 }
 
 .title{
-    color: #abccf7;
-    font-size: 30px;
+    color: #666;
+    font-size: 44px;
+    font-weight: 400;
 }
 
 .nav{
@@ -82,12 +89,12 @@ ul {
 } */
 
 .section-title{
-    width: 50%;
+    width: 60%;
     display: flex;
 }
 
 .section-text{
-    width: 50%;
+    width: 60%;
     display: flex;
 }
 
@@ -111,4 +118,12 @@ ul {
 .btn{
     color: white;
     background-color: #ed2f80;
+}
+
+.quote {
+    margin-left: 2rem;
+}
+
+.goal {
+    margin-left: 2rem;
 }
