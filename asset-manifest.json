@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/capstone-project/my-app/static/css/main.9e763c50.chunk.css",
+    "main.js": "/capstone-project/my-app/static/js/main.96804ba4.chunk.js",
+    "main.js.map": "/capstone-project/my-app/static/js/main.96804ba4.chunk.js.map",
+    "runtime-main.js": "/capstone-project/my-app/static/js/runtime-main.d05a5d4b.js",
+    "runtime-main.js.map": "/capstone-project/my-app/static/js/runtime-main.d05a5d4b.js.map",
+    "static/js/2.3dd9e51c.chunk.js": "/capstone-project/my-app/static/js/2.3dd9e51c.chunk.js",
+    "static/js/2.3dd9e51c.chunk.js.map": "/capstone-project/my-app/static/js/2.3dd9e51c.chunk.js.map",
+    "index.html": "/capstone-project/my-app/index.html",
+    "precache-manifest.d41aa67612b8324738cdf47fa6896f28.js": "/capstone-project/my-app/precache-manifest.d41aa67612b8324738cdf47fa6896f28.js",
+    "service-worker.js": "/capstone-project/my-app/service-worker.js",
+    "static/css/main.9e763c50.chunk.css.map": "/capstone-project/my-app/static/css/main.9e763c50.chunk.css.map",
+    "static/js/2.3dd9e51c.chunk.js.LICENSE.txt": "/capstone-project/my-app/static/js/2.3dd9e51c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d05a5d4b.js",
+    "static/js/2.3dd9e51c.chunk.js",
+    "static/css/main.9e763c50.chunk.css",
+    "static/js/main.96804ba4.chunk.js"
+  ]
+}
