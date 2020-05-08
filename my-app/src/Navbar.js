@@ -32,6 +32,7 @@ export class Navbar extends Component {
                                             <li><a>Your Visit</a></li>
                                             <li><a>Conditions</a></li>
                                             <li><a>Clinics</a></li>
+                                            <li><a>Resources</a></li>
                                             <li><a>Research</a></li>
                                             <li><a>Health &amp; Safety</a></li>
                                             <li><a>Giving</a></li>

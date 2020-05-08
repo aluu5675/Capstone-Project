@@ -423,7 +423,7 @@ ul {
     }
 
 
-.content {
+    .content {
     color: #3f4450;
     
     display: flex;
@@ -436,5 +436,6 @@ ul {
     flex: 5;
     height: 100%;
     margin: 0 80px
-
+    
+    }
 }
