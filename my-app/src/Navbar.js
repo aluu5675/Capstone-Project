@@ -31,13 +31,14 @@ export class Navbar extends Component {
                                 <nav className="primary-nav main-nav-off-canvas off-canvas">
                                     <div className="menu clearfix">
                                         <ul className="menu-primary">
-                                            <li><a>Your Visit</a></li>
-                                            <li><a>Conditions</a></li>
-                                            <li><a>Clinics</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/patients-families/">Your Visit</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/conditions/">Conditions</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/clinics/">Clinics</a></li>
                                             <li><Link to='/resources'>Resources</Link></li>
-                                            <li><a>Health &amp; Safety</a></li>
-                                            <li><a>Giving</a></li>
-                                            <li><a>Media</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/research/">Research</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/health-safety/">Health &amp; Safety</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/giving/">Giving</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/media/">Media</a></li>
                                         </ul>
                                     </div>
                                 </nav>
