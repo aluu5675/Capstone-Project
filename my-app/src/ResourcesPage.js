@@ -215,29 +215,6 @@ export class ResourcesPage extends React.Component {
 }
 
 
-// component representing an individual resource item
-export class ResourceItem extends React.Component{
-    render() {
-        let resource = this.props.resource
-        let links = resource.links.map((link) => {
-            return (
-                <a href={link.link}>
-                    <button>{link.label}</button>
-                </a>
-            )
-        })
-        return (
-            <div>
-                <h3>{resource.resourceName}</h3>
-                <p>{resource.resourceDescription}</p>
-                <p>{resource.resourceType}: {links}</p>
-                <hr></hr>
-            </div>
-        )
-    }
-}
-
-
 // component representing full list view of all rendered resources
 export class ResourceList extends React.Component{
     render() {
@@ -254,6 +231,28 @@ export class ResourceList extends React.Component{
             }
         })
         return (resourceItems)
+    }
+}
+
+// component representing an individual resource item
+export class ResourceItem extends React.Component{
+    render() {
+        let resource = this.props.resource
+        let links = resource.links.map((link) => {
+            return (
+                <a href={link.link}>
+                    <button>{link.label}</button>
+                </a>
+            )
+        })
+        return (
+            <div>
+                <h3>{resource.resourceName}</h3>
+                <p className="resource-description">{resource.resourceDescription}</p>
+                <p>{resource.resourceType}: {links}</p>
+                <hr></hr>
+            </div>
+        )
     }
 }
 

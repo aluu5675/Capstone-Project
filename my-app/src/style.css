@@ -442,12 +442,79 @@ ul {
 */
 .categoriesContainer {
     text-align: center;
+    margin-top: 50px;
 }
 
 .categoryImage {
     margin: 5px;
+    max-width: 100%;
+    width: 275px;
+    height: auto;
 }
 
-.categoryHeading {
-    color: grey;
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1rem;
+    color: #007DA1;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #eee;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #007DA1;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .section-two {
+    background-color: #eee;
+  }
+  .faq-container {
+    margin: 80px 100px 80px;
+    padding: 30px;
+  }
+
+  .faq-answer {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: small;
+    color: #00325b;;
+  }
+
+/* ResourcePage styling */
+.resource-description {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: small;
 }
+  
+
+
