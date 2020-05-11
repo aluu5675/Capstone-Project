@@ -196,13 +196,15 @@ export class ResourcesPage extends React.Component {
             <body>
                 <main className="flex-container">
                     <div className="content">                    
-                        <h1>{titleDisplay} Resources</h1>
+                        <h1 className="resource-title">{titleDisplay} Resources</h1>
                         <div>
                             <ResourceList resources={this.state.resources} selectedTags={this.state.selectedTags} numResources ={this.state.numResources}/>
                         </div>
-                        <div>
-                            <button onClick={this.handleLoad}>Load More Resources</button>
-                        </div>
+                        <p>
+                           
+                            <input type="image" src="/img/load_button.png" onClick={this.handleLoad} className="load-button"></input> 
+                            
+                        </p>
                     </div>
                     
                     <div className="sidebarContainer">
@@ -210,29 +212,6 @@ export class ResourcesPage extends React.Component {
                     </div>
                 </main>
             </body>
-        )
-    }
-}
-
-
-// component representing an individual resource item
-export class ResourceItem extends React.Component{
-    render() {
-        let resource = this.props.resource
-        let links = resource.links.map((link) => {
-            return (
-                <a href={link.link}>
-                    <button>{link.label}</button>
-                </a>
-            )
-        })
-        return (
-            <div>
-                <h3>{resource.resourceName}</h3>
-                <p>{resource.resourceDescription}</p>
-                <p>{resource.resourceType}: {links}</p>
-                <hr></hr>
-            </div>
         )
     }
 }
@@ -257,6 +236,28 @@ export class ResourceList extends React.Component{
     }
 }
 
+// component representing an individual resource item
+export class ResourceItem extends React.Component{
+    render() {
+        let resource = this.props.resource
+        let links = resource.links.map((link) => {
+            return (
+                <a href={link.link}>
+                    <button className="resource-button">{link.label}</button>
+                </a>
+            )
+        })
+        return (
+            <div>
+                <h3 className="resource-title-text">{resource.resourceName}</h3>
+                <p className="resource-body-text">{resource.resourceDescription}</p>
+                <p className="resource-body-text">{resource.resourceType}: {links}</p>
+                <hr></hr>
+            </div>
+        )
+    }
+}
+
 // component representing side navigation bar
 export class SideNav extends React.Component {
     render() {
@@ -272,18 +273,18 @@ export class SideNav extends React.Component {
         })
         return(
             <div className="sidebar">
-                <h4>Filters</h4>
-                <p>Resource Type</p>
+                <h4 className="filter-label">Filters</h4>
+                <p className="filter-category">Resource Type</p>
                 <hr></hr>
                 <div className="checkGroup">
                     {resourceTypes}
                 </div>
-                <p>Language</p>
+                <p className="filter-category">Language</p>
                 <hr></hr>
                 <div className="checkGroup">
                     {languages}
                 </div>
-                <p>Location</p>
+                <p className="filter-category">Location</p>
                 <hr></hr>
                 <div className="checkGroup">
                     {locations}
@@ -301,7 +302,7 @@ export class CheckBox extends React.Component {
     render() {
         let capitalizedTag = this.props.tag.charAt(0).toUpperCase() + this.props.tag.slice(1);
         return(
-            <div>
+            <div className="resource-checkbox-text">
                 <input type="checkbox" id={this.props.tag} name={this.props.tag} value={this.props.tag} onClick={this.handleClick}></input>
                 <label for={this.props.tag}>{capitalizedTag}</label>
                 <br></br>
