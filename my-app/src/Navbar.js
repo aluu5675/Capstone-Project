@@ -31,6 +31,7 @@ export class Navbar extends Component {
                                 <nav className="primary-nav main-nav-off-canvas off-canvas">
                                     <div className="menu clearfix">
                                         <ul className="menu-primary">
+
                                             <li><a href="https://www.seattlechildrens.org/patients-families/">Your Visit</a></li>
                                             <li><a href="https://www.seattlechildrens.org/conditions/">Conditions</a></li>
                                             <li><a href="https://www.seattlechildrens.org/clinics/">Clinics</a></li>
@@ -39,6 +40,7 @@ export class Navbar extends Component {
                                             <li><a href="https://www.seattlechildrens.org/health-safety/">Health &amp; Safety</a></li>
                                             <li><a href="https://www.seattlechildrens.org/giving/">Giving</a></li>
                                             <li><a href="https://www.seattlechildrens.org/media/">Media</a></li>
+
                                         </ul>
                                     </div>
                                 </nav>

@@ -422,9 +422,11 @@ ul {
         padding: 0 0 0 60px;
     }
 
+
 }
 .content {
     color: #666666;
+
     
     display: flex;
     flex-direction: column;
@@ -436,6 +438,7 @@ ul {
     flex: 5;
     height: 100%;
     margin: 0 80px
+
 }
 
 /* ResourceCategoriesPage styling
@@ -554,4 +557,5 @@ ul {
     width: 250px;
     vertical-align: middle;
 }
+
 
