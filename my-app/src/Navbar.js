@@ -1,6 +1,6 @@
 import React from 'react';
 import { SearchBar } from './SearchBar.js';
-
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
 let Component = React.Component;
 
 export class Navbar extends Component {
@@ -13,7 +13,9 @@ export class Navbar extends Component {
                         <div className="row">
                             <div className="flex-left">
                                 <div className="logo-full">
-                                    <img src='img/happylogo.png' alt='homepage logo' className='homeLogo'></img>
+                                    <Link to='/'>
+                                        <input type="image" src="/img/happylogo.png" alt='homepage logo' className='homeLogo'></input>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="flex-right">
@@ -29,14 +31,16 @@ export class Navbar extends Component {
                                 <nav className="primary-nav main-nav-off-canvas off-canvas">
                                     <div className="menu clearfix">
                                         <ul className="menu-primary">
-                                            <li><a>Your Visit</a></li>
-                                            <li><a>Conditions</a></li>
-                                            <li><a>Clinics</a></li>
-                                            <li><a>Resources</a></li>
-                                            <li><a>Research</a></li>
-                                            <li><a>Health &amp; Safety</a></li>
-                                            <li><a>Giving</a></li>
-                                            <li><a>Media</a></li>
+
+                                            <li><a href="https://www.seattlechildrens.org/patients-families/">Your Visit</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/conditions/">Conditions</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/clinics/">Clinics</a></li>
+                                            <li><Link to='/resources'>Resources</Link></li>
+                                            <li><a href="https://www.seattlechildrens.org/research/">Research</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/health-safety/">Health &amp; Safety</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/giving/">Giving</a></li>
+                                            <li><a href="https://www.seattlechildrens.org/media/">Media</a></li>
+
                                         </ul>
                                     </div>
                                 </nav>
