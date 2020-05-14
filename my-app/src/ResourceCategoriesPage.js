@@ -60,6 +60,37 @@ export class ResourceCategoriesPage extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className="section-three">
+                    <div className="help-form">
+                        <h1 className="help-title">Help Request Form</h1>
+                        <h4 className="help-description">Leave your questions or concerns and a Happy Hospital representative will get back to you within 2 days.</h4>
+                        <div className="general">
+                            <p className="help-form-questions">Name</p>
+                            <input type="text"></input>
+                            <p className="help-form-questions">Email</p>
+                            <input type="text"></input>
+                            <p className="help-form-questions">Language</p>
+                            <select id="languages">
+                                <option value="English">English</option>
+                                <option value="Chinese">Chinese</option>
+                                <option value="Vietnamese">Vietnamese</option>
+                                <option value="Spanish">Spanish</option>
+                                <option value="Somali">Somali</option>
+                                <option value="Russian">Russian</option>
+                                <option value="French">French</option>
+                            </select>
+                        </div>
+                        <div className="general">
+                            <p className="help-form-questions">Questions</p>
+                            <textarea cols="60" rows="10"></textarea>
+                            <br></br>
+                            <div className="help-buttons">
+                                <button className="help">Cancel</button>
+                                <button className="help">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </body>
         )
     }
