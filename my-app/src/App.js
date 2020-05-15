@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Navbar } from './Navbar.js';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import { HashRouter as Router, Route, Link} from 'react-router-dom'
 import './style.css';
 import HomePage from './Home.js';
 import { ResourceCategoriesPage } from './ResourceCategoriesPage.js';
