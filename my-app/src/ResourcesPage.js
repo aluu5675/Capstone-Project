@@ -225,7 +225,8 @@ export class ResourceList extends React.Component{
         // takes in an object with fields 'resourceName' and 'resourceDescription' and creates an array of individual resource components  
         let resourceItems = this.props.resources.map((resource) => {
             if (numLoadedResources < this.props.numResources) {
-                if (selectedTags.length == 0 || resource.tags.some(r=> selectedTags.indexOf(r) >= 0)) {
+                //if (selectedTags.length == 0 || resource.tags.some(r=> selectedTags.indexOf(r) >= 0)) {
+                if (selectedTags.length == 0 || resource.tags.every(r=> selectedTags.includes(r))) {
                     let resourceComponent = <ResourceItem resource={resource}/>;
                     numLoadedResources++;
                     return resourceComponent;
