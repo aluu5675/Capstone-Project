@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/capstone-project/precache-manifest.b07c413780b7b1aa8f44574c2ea480aa.js"
+  "/capstone-project/precache-manifest.fefce75d1072b3f4453f23e4c478f1ef.js"
 );
 
 self.addEventListener('message', (event) => {
