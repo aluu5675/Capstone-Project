@@ -14,7 +14,7 @@ export class Navbar extends Component {
                             <div className="flex-left">
                                 <div className="logo-full">
                                     <Link to='/'>
-                                        <input type="image" src="/img/happylogo.png" alt='homepage logo' className='homeLogo'></input>
+                                        <input type="image" src="img/happylogo.png" alt='homepage logo' className='homeLogo'></input>
                                     </Link>
                                 </div>
                             </div>
