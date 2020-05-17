@@ -25,28 +25,28 @@ export class Navbar extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="sticky-wrapper">
-                        <div className="sticky-nav-container">
-                            <div className="flex-left">
-                                <nav className="primary-nav main-nav-off-canvas off-canvas">
-                                    <div className="menu clearfix">
-                                        <ul className="menu-primary">
-                                            <li><a href="https://www.seattlechildrens.org/patients-families/">Your Visit</a></li>
-                                            <li><a href="https://www.seattlechildrens.org/conditions/">Conditions</a></li>
-                                            <li><a href="https://www.seattlechildrens.org/clinics/">Clinics</a></li>
-                                            <li><Link to='/resources'>Resources</Link></li>
-                                            <li><a href="https://www.seattlechildrens.org/research/">Research</a></li>
-                                            <li><a href="https://www.seattlechildrens.org/health-safety/">Health &amp; Safety</a></li>
-                                            <li><a href="https://www.seattlechildrens.org/giving/">Giving</a></li>
-                                            <li><a href="https://www.seattlechildrens.org/media/">Media</a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
+                   
+                    <div className="sticky-nav-container">
+                        <div className="flex-left">
+                            <nav className="primary-nav main-nav-off-canvas off-canvas">
+                                <div className="menu clearfix">
+                                    <ul className="menu-primary">
+                                        <li className="menu-item"><a href="https://www.seattlechildrens.org/patients-families/">Your Visit</a></li>
+                                        <li className="menu-item"><a href="https://www.seattlechildrens.org/conditions/">Conditions</a></li>
+                                        <li className="menu-item"><a href="https://www.seattlechildrens.org/clinics/">Clinics</a></li>
+                                        <li className="menu-item"><Link to='/resources'>Family Resources</Link></li>
+                                        <li className="menu-item"><a href="https://www.seattlechildrens.org/research/">Research</a></li>
+                                        <li className="menu-item"><a href="https://www.seattlechildrens.org/health-safety/">Health &amp; Safety</a></li>
+                                        <li className="menu-item"><a href="https://www.seattlechildrens.org/giving/">Giving</a></li>
+                                        <li className="menu-item"><a href="https://www.seattlechildrens.org/media/">Media</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
                         </div>
                     </div>
+                    
                 </header>
-                <SearchBar></SearchBar>;
+               
             </div>
         )
     }

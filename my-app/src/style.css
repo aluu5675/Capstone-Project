@@ -158,8 +158,8 @@ h1.no-line {
 }
 
 .homeLogo {
-    height: 80px;
-    width: 310px;
+    height: 100px;
+    width: 350px;
     max-width: 100%;
     overflow: hidden;
 }
@@ -197,6 +197,11 @@ h1.no-line {
     overflow: hidden;
 }
 
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+
 .menu-primary {
     background: #FFF;
     list-style: none;
@@ -209,9 +214,10 @@ h1.no-line {
     font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1;
     color: #666;
-    font-size: 1.125rem;
+    font-size: 1.35rem;
     font-weight: 500;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
 .off-canvas {
@@ -243,7 +249,8 @@ p.body-large {
 }
 
 nav {
-    background-color: #4C0B5F;
+    background-color: #624B7C;
+    margin-top: 0px;
 }
 
 /* The sidebar menu */
@@ -500,18 +507,38 @@ ul {
 
 /* ResourceCategoriesPage styling
 */
-.categoriesContainer {
+.section-one {
     text-align: center;
     margin-top: 50px;
+    
 }
 
-.categoryImage {
-    margin: 5px;
-    max-width: 100%;
-    width: 275px;
+
+.category-image {
+    width: 90%;
     height: auto;
 }
 
+.category-image:hover {
+    width: 85%;
+}
+
+.categories-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    table-layout: auto;
+}
+
+.new-user-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.new-user-desc {
+    font-size: 18px;
+}
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -523,7 +550,7 @@ ul {
     border: none;
     outline: none;
     transition: 0.4s;
-    font-size: 1rem;
+    font-size: 20px;
     color: #007DA1;
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 400;
@@ -566,10 +593,24 @@ ul {
 
   .faq-answer {
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: small;
+    font-size: 18;
     color: #00325b;;
   }
 
+  .suggestionBanner {
+    color: white;
+    padding: 10px;
+    font-family: 'Montserrat', Arial, sans-serif;
+  }
+
+  .top-resources-button {
+    height: 25%;
+    width: auto;
+  }
+  
+  .top-resources-button:hover {
+    border: 2px solid white;
+  }
 /* ResourcePage styling */
 .resource-body-text {
     font-family: 'Montserrat', Arial, sans-serif;
@@ -585,6 +626,10 @@ ul {
     font-size: 18px;
 }
 
+.resource-button:hover {
+    text-decoration: underline;
+}
+
 .resource-checkbox-text {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 15px;
@@ -592,18 +637,22 @@ ul {
 }
 
 .filter-label {
-    font-size: 18px;
+    font-size: 24px;
     color: #002F5D;
 }
 
 .filter-category {
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size:15px;
+    font-size:20px;
     color: #666666;
 }
 
+.filter-name {
+    font-size: 20px;
+}
+
 .resource-title-text {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .resource-title {
