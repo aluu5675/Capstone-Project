@@ -13,9 +13,9 @@ export class ResourceCategoriesPage extends React.Component {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
             if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
+                panel.style.maxHeight = null;
             } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
+                panel.style.maxHeight = panel.scrollHeight + "px";
             }
         });
         }
@@ -34,7 +34,7 @@ export class ResourceCategoriesPage extends React.Component {
                                 </td>
                                 <td>
                                     <Link to='/resources/popular'>
-                                        <input type="image" src="img/resources_button.png" className="top-resources-button" />
+                                        <input type="image" src="img/resources_button.PNG" className="top-resources-button" />
                                     </Link>
                                 </td>
                             </tr>
