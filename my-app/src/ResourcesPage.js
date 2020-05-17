@@ -296,7 +296,7 @@ export class ResourcesPage extends React.Component {
                         </div>
                         <p>
                            
-                            <input type="image" src="../img/load_button.PNG" onClick={this.handleLoad} className="load-button"></input> 
+                            <input type="image" src="img/load_button.PNG" onClick={this.handleLoad} className="load-button"></input> 
                             
                         </p>
                     </div>
