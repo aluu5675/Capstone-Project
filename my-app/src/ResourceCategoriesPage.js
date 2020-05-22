@@ -87,30 +87,32 @@ export class ResourceCategoriesPage extends React.Component {
                         <button className="accordion">I can't find what I need. What do I do?</button>
                         <div className="panel">
                         <p className="faq-answer">
-                            Did you ever hear the Tragedy of Darth Plagueis the wise? I thought not. It's not a story the Jedi would tell you. 
+                            Scroll down to the "Request Help" section to submit a formal inquiry into whether Seattle Children's does provide support
+                            for what you need.
                         </p>
                         </div>
 
                         <button className="accordion">Can I get the same help in person?</button>
                         <div className="panel">
                         <p className="faq-answer">
-                            It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life...He had such
-                             a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to 
-                             be unnatural.
+                            Yes! Many of these resources are available in physical copies throughout the Seattle Children's campus, and more information 
+                            can be found by asking patient services.
                         </p>
                         </div>
 
                         <button className="accordion">Are these services limited to Seattle Children's patient families?</button>
                         <div className="panel">
                         <p className="faq-answer">
-                            He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did.
+                            Depends! Some services, such as the Family Resource Center, is limited to those served by Seattle Children's. However, many others
+                            are available to the general public (such as curated Food Bank lists). Any service limited to patients and their families will be clearly
+                            marked as such.
                         </p>
                         </div>
 
                         <button className="accordion">How do I know I'm eligible?</button>
                         <div className="panel">
                         <p className="faq-answer">
-                            Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. It's ironic he could save others from death, but not himself.
+                            Look into the individual service details to determine whether you are eligible for their help.
                         </p>
                         </div>
                     </div>
