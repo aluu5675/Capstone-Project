@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './style.css';
-import { Navbar } from './Navbar';
 
 // component representing full resource page
 export class ResourcesPage extends React.Component {
@@ -33,7 +32,7 @@ export class ResourcesPage extends React.Component {
     // ADD NEW RESOURCES HERE
     componentDidMount() {
         let resources = []
-        if (this.props.match.params.resourceType == "food") {
+        if (this.props.match.params.resourceType === "food") {
             resources = [
                 {
                     resourceName: "Food Banks", 
@@ -85,7 +84,7 @@ export class ResourcesPage extends React.Component {
                     ]
                 }
             ]
-        } else if (this.props.match.params.resourceType == "housing") {
+        } else if (this.props.match.params.resourceType === "housing") {
             resources = [
                 {
                     resourceName: "Guide for Relocating to Seattle",
@@ -156,7 +155,7 @@ export class ResourcesPage extends React.Component {
                     ]
                 }
             ]
-        } else if (this.props.match.params.resourceType == "transportation") {
+        } else if (this.props.match.params.resourceType === "transportation") {
             resources = [
                 {
                     resourceName: "Transportation Options", 
@@ -180,7 +179,7 @@ export class ResourcesPage extends React.Component {
                     ]
                 },
             ]
-        } else if (this.props.match.params.resourceType == "mental_health") {
+        } else if (this.props.match.params.resourceType === "mental_health") {
             resources = [
                 {
                     resourceName: "Choosing a Mental Health Provider", 
@@ -202,7 +201,7 @@ export class ResourcesPage extends React.Component {
                     ]
                 }
             ]
-        } else if (this.props.match.params.resourceType == "hygiene") {
+        } else if (this.props.match.params.resourceType === "hygiene") {
             resources = [
                 {
                     resourceName: "Family Resource Center", 
@@ -215,7 +214,7 @@ export class ResourcesPage extends React.Component {
                     ]
                 }
             ]
-        } else if (this.props.match.params.resourceType == "technology") {
+        } else if (this.props.match.params.resourceType === "technology") {
             resources = [
                 {
                     resourceName: "Family Resource Center", 
@@ -228,7 +227,7 @@ export class ResourcesPage extends React.Component {
                     ]
                 }
             ]
-        } else if (this.props.match.params.resourceType == "popular") {
+        } else if (this.props.match.params.resourceType === "popular") {
             resources = [
                 {
                     resourceName: "Family Resource Center", 
@@ -295,9 +294,7 @@ export class ResourcesPage extends React.Component {
                             <ResourceList resources={this.state.resources} selectedTags={this.state.selectedTags} numResources ={this.state.numResources}/>
                         </div>
                         <p>
-                           
-                            <input type="image" src="img/load_button.PNG" onClick={this.handleLoad} className="load-button"></input> 
-                            
+                            <input type="image" src="img/load_button.PNG" alt="load more resources" onClick={this.handleLoad} className="load-button"></input> 
                         </p>
                     </div>
                     
@@ -320,7 +317,7 @@ export class ResourceList extends React.Component{
         let resourceItems = this.props.resources.map((resource) => {
             if (numLoadedResources < this.props.numResources) {
                 // defines which resources should be displayed
-                if (selectedTags.length == 0 || selectedTags.every(val => resource.tags.includes(val))) {
+                if (selectedTags.length === 0 || selectedTags.every(val => resource.tags.includes(val))) {
                     let resourceComponent = <ResourceItem resource={resource}/>;
                     numLoadedResources++;
                     return resourceComponent;

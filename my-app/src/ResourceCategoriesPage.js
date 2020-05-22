@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import { Navbar } from './Navbar.js';
 import './style.css';
 
 export class ResourceCategoriesPage extends React.Component {
@@ -34,7 +33,7 @@ export class ResourceCategoriesPage extends React.Component {
                                 </td>
                                 <td>
                                     <Link to='/resources/popular'>
-                                        <input type="image" src="img/resources_button.PNG" className="top-resources-button" />
+                                        <input type="image" src="img/resources_button.PNG" alt="popular resources button" className="top-resources-button" />
                                     </Link>
                                 </td>
                             </tr>
@@ -47,17 +46,17 @@ export class ResourceCategoriesPage extends React.Component {
                         <tr>
                             <td>
                                 <Link to='/resources/housing'>
-                                    <input type="image" src="img/housing_icon.png" className="category-image"/>       
+                                    <input type="image" src="img/housing_icon.png" alt="housing resources button" className="category-image"/>       
                                 </Link>
                             </td>
                             <td>
                                 <Link to='/resources/food'>
-                                    <input type="image" src="img/food_assistance_icon.png" className="category-image"/>
+                                    <input type="image" src="img/food_assistance_icon.png" alt="food assistance button" className="category-image"/>
                                 </Link>
                             </td>
                             <td>
                                 <Link to='/resources/transportation'>
-                                    <input type="image" src="img/transportation_icon.png" className="category-image"/>
+                                    <input type="image" src="img/transportation_icon.png" alt="transportation resources button" className="category-image"/>
                                 </Link>
                             </td>
                         </tr>
@@ -65,17 +64,17 @@ export class ResourceCategoriesPage extends React.Component {
                         <tr>
                             <td>
                                 <Link to='/resources/technology'>
-                                    <input type="image" src="img/technology_icon.png" className="category-image"/>
+                                    <input type="image" src="img/technology_icon.png" alt="technology resource button" className="category-image"/>
                                 </Link>
                             </td>
                             <td>
                                 <Link to='/resources/hygiene'>
-                                    <input type="image" src="img/hygiene_icon.png" className="category-image"/>
+                                    <input type="image" src="img/hygiene_icon.png" alt="hygiene resources button" className="category-image"/>
                                 </Link>
                             </td>
                             <td>
                                 <Link to='/resources/mental_health'>
-                                    <input type="image" src="img/mental_health_icon.png" className="category-image"/>
+                                    <input type="image" src="img/mental_health_icon.png" alt="mental health resources button" className="category-image"/>
                                 </Link>
                             </td>
                         </tr>
