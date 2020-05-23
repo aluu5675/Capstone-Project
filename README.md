@@ -12,16 +12,20 @@
 
 <p><strong>Sponsor Info:</strong> Seattle Children’s is a non-profit hospital and research foundation dedicated to helping children get the childhoods that they deserve. They provide children and families with hope, care and cures to help every child live the healthiest and most fulfilling life possible.</p>
 
-<h4><strong>Links</strong></h4>
+<h3><strong>Links</strong></h3>
 <ul>
   <li><strong>GitHub Repo:</strong> https://github.com/aluu5675/capstone-project</li>
 
-  <li><strong>React Prototype:</strong> https://aluu5675.github.io/capstone-project/#/<li> 
+  <li><strong>React Prototype:</strong> https://aluu5675.github.io/capstone-project/#/</li> 
 
   <li><strong>Figma:</strong> https://www.figma.com/file/pNcAOo0dGkH5dMwzkPPSh0/Resource-Tab-Design?node-id=0%3A1</li>
 
   <li><strong>Content Inventory (Not Extensive):</strong> https://docs.google.com/spreadsheets/d/1VzsREIE6odM4DNglFpeQS8mcHGmuS09V844sfOOMMdc/edit?usp=sharing</li>
 </ul>
+
+<h3><strong>Key Features</strong></h3>
+
+<a href="https://imgur.com/6b7cPp1"><img src="https://i.imgur.com/6b7cPp1.png" title="source: imgur.com" /></a>
 
 <p>Sponsored Project: Seattle Children's</p>
 <p>Project Name: Social Health Connector</p>
