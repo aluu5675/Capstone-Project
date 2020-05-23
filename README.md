@@ -1,4 +1,16 @@
-# Capstone Project
+# Seattle Children’s Website Enhancement Design Specifications
+
+<p><em>Abstract:</em> Seattle Children’s Hospital offers many resources that can make a significant difference in the quality of life for patient families. Ranging from food banks, to gas reimbursement, to unit food delivery, these critical resources are hidden within the information architecture of their website. Our mission is to centralize available resources so families can easily find resources relevant to their situations. The addition of a family resources tab allows families to quickly and easily discover, identify, and utilize the resources available.</p>
+
+<p><em>Team Members:</em></p>
+<ul>
+  <li>Andy Luu: Developer</li>
+  <li>Jonathan Lin: Developer</li>
+  <li>Josephine Liu: UX Designer</li>
+  <li>Yu-Won Youn: UX Researcher & Project Manager</li>
+</ul>
+
+<p><em>Sponsor Info:</em> Seattle Children’s is a non-profit hospital and research foundation dedicated to helping children get the childhoods that they deserve. They provide children and families with hope, care and cures to help every child live the healthiest and most fulfilling life possible.</p>
 
 <p>Sponsored Project: Seattle Children's</p>
 <p>Project Name: Social Health Connector</p>
