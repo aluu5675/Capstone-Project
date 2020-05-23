@@ -1,8 +1,8 @@
 # Seattle Children’s Website Enhancement Design Specifications
 
-<p><em>Abstract:</em> Seattle Children’s Hospital offers many resources that can make a significant difference in the quality of life for patient families. Ranging from food banks, to gas reimbursement, to unit food delivery, these critical resources are hidden within the information architecture of their website. Our mission is to centralize available resources so families can easily find resources relevant to their situations. The addition of a family resources tab allows families to quickly and easily discover, identify, and utilize the resources available.</p>
+<p><strong>Abstract:</strong> Seattle Children’s Hospital offers many resources that can make a significant difference in the quality of life for patient families. Ranging from food banks, to gas reimbursement, to unit food delivery, these critical resources are hidden within the information architecture of their website. Our mission is to centralize available resources so families can easily find resources relevant to their situations. The addition of a family resources tab allows families to quickly and easily discover, identify, and utilize the resources available.</p>
 
-<p><em>Team Members:</em></p>
+<p><strong>Team Members:</strong></p>
 <ul>
   <li>Andy Luu: Developer</li>
   <li>Jonathan Lin: Developer</li>
@@ -10,7 +10,18 @@
   <li>Yu-Won Youn: UX Researcher & Project Manager</li>
 </ul>
 
-<p><em>Sponsor Info:</em> Seattle Children’s is a non-profit hospital and research foundation dedicated to helping children get the childhoods that they deserve. They provide children and families with hope, care and cures to help every child live the healthiest and most fulfilling life possible.</p>
+<p><strong>Sponsor Info:</strong> Seattle Children’s is a non-profit hospital and research foundation dedicated to helping children get the childhoods that they deserve. They provide children and families with hope, care and cures to help every child live the healthiest and most fulfilling life possible.</p>
+
+<h4><strong>Links</strong></h4>
+<ul>
+  <li><strong>GitHub Repo:</strong> https://github.com/aluu5675/capstone-project</li>
+
+  <li><strong>React Prototype:</strong> https://aluu5675.github.io/capstone-project/#/<li> 
+
+  <li><strong>Figma:</strong> https://www.figma.com/file/pNcAOo0dGkH5dMwzkPPSh0/Resource-Tab-Design?node-id=0%3A1</li>
+
+  <li><strong>Content Inventory (Not Extensive):</strong> https://docs.google.com/spreadsheets/d/1VzsREIE6odM4DNglFpeQS8mcHGmuS09V844sfOOMMdc/edit?usp=sharing</li>
+</ul>
 
 <p>Sponsored Project: Seattle Children's</p>
 <p>Project Name: Social Health Connector</p>
